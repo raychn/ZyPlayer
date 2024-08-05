@@ -1,21 +1,3 @@
-<p align="center">
-  <img width="128" src="https://s2.loli.net/2024/02/29/7Q1nVbhkHdSmo5D.png" >
-</p>
-<p align="center">
-  <a href="https://github.com/Hiram-Wong/ZyPlayer/wiki" target="_blank">文档</a>
-  <a href="https://github.com/Hiram-Wong/ZyPlayer/issues" target="_blank">反馈</a>
-  <a href="https://github.com/Hiram-Wong/ZyPlayer/releases" target="_blank">下载</a>
-</p>
-
-# 软件介绍
-
-ZyPlayer是一款采用现代化技术栈开发的高颜值媒体播放器，它基于 `electron-vite` 框架，集成了 `TDesign` UI 组件库与 `Vue3` 全家桶，以清新的薄荷绿为主题，旨在为用户提供流畅的跨平台娱乐体验。
-
-**重要提醒**: 仅此Github发布，请勿上当受骗；请各位公众号、QQ群、博客的管理者不要费力宣传及引流本软件!
-
-**重要提醒**: 请务必在有能力的情况请支持正版，我们不提倡盗版!
-
-**重要提醒**: 在开始使用前，请务必详读并同意用户协议，确保遵守相关规定!
 
 <details>
 <summary>展开查看用户协议及免责申明</summary>
@@ -37,45 +19,13 @@ ZyPlayer是一款采用现代化技术栈开发的高颜值媒体播放器，它
 
 请您在使用本软件之前认真阅读并理解本免责声明的所有内容，感谢您的理解和支持。
 
-</details>
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Hiram-Wong/ZyPlayer&type=Date)](https://star-history.com/#Hiram-Wong/ZyPlayer&Date)
-
-## 🎉 功能亮点
-
-- **广泛兼容**：跨平台支持 Windows、Mac、Linux 系统。
-- **深色模式**：适配夜间使用，保护视力。
-- **资源站接入**：轻松管理 json、xml 等格式的 CMS。
-- **IPTV 支持**：无缝播放 m3u、genre 等格式。
-- **快捷隐藏**：内置老板键，隐私保护一键到位。
-- **多播放器**：内置多种播放器核心，满足不同需求。
-- **更多内容**: 自行探索...
-
-### 🖼️ 屏幕截图预览
-
-<details>
-<summary>展开查看软件截图</summary>
-
-|                            影视(首页)                            |                            影视(搜索)                            |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![影视-首页](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![影视-搜索](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            影视(播放)                            |                            解析(首页)                            |
-| ![影视播放](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![解析-首页](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            直播(首页)                            |                            直播(播放)                            |
-| ![直播-首页](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![直播-播放](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             历史记录                             |                               设置                               |
-| ![历史记录](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![设置](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
-
-</details>
 
 ## 🌴 法律声明与注意事项
 
 - 强烈倡导合法观影，本软件仅作为播放工具，不涉及资源存储或分发。
 - 仅供个人学习交流之用，24小时内请自觉卸载，勿作商业用途。
 - 软件提供播放框架，具体播放源需用户自行配置。
-- 部分灵感来源于[ZY-Player](https://github.com/Hunlongyu/ZY-Player)，图标素材感谢[@fourbeauty]贡献。
 
-### 播放器特性概览
 
 - 没有完美的播放器
 - 如果只有画面没声音 - 一般为没有声轨
@@ -89,11 +39,6 @@ ZyPlayer是一款采用现代化技术栈开发的高颜值媒体播放器，它
 - **Windows**: 支持 arm64、x64、ia32，以及通用版本，但请注意 Electron 23 起不再支持 Win 7/8/8.1。
 - **Linux**: 针对 arm64、x64 架构发行 image、deb、rpm 安装包。
 
-## 🛠️ 下载与安装
-
-> **最新发布版下载**: 访问 [GitHub Releases页面](https://github.com/Hiram-Wong/ZyPlayer/releases) 获取。
-
-> **最新开发版下载**: 访问 [GitHub Actions页面](https://github.com/Hiram-Wong/ZyPlayer/actions) 获取。
 
 ### macOS 安装问题解决方案
 
