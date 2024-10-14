@@ -1,4 +1,3 @@
-import 'v8-compile-cache'; // 需第一个加载
 import { initialize as renoteInitialize } from '@electron/remote/main';
 import { electronApp, is, optimizer } from '@electron-toolkit/utils';
 import { registerTitleBarListener } from '@electron-uikit/titlebar';
@@ -72,7 +71,7 @@ app.whenReady().then(async () => {
 
   defaultSession.webRequest.onBeforeRequest({ urls: ['*://*/*'] }, (details, callback) => {
     let { url, id } = details;
-    const filters = ['devtools-detector.min.js', 'devtools-detector.js'];
+    const filters = ['devtools-detector', 'disable-devtool'];
     if (filters.some((filter) => url.includes(filter))) {
       callback({ cancel: true });
       return;
